@@ -4,13 +4,13 @@ Here's the code for the ANONYMOUS coding challenge I was given.  The repo is pub
 
 Let's get the model outputs out of the way:
 
-The correlation between the equal-share and equal weight portfolio is: 0.9717702699879794
-The correlation between the equal-share and EOM rebalanced portfolio is: 0.9810334332520371
-The correlation between the equal weight and EOM rebalanced portfolio is: 0.9952871007830019
+The correlation between the equal-share and equal weight portfolio is: 0.9717702699879794 \
+The correlation between the equal-share and EOM rebalanced portfolio is: 0.9810334332520371 \
+The correlation between the equal weight and EOM rebalanced portfolio is: 0.9952871007830019 
 
-Total (annualized) return for equal-share portfolio is 92.98%
-Total (annualized) return for equal weight portfolio is 115.29%
-Total (annualized) return for EOM rebalanced portfolio is 113.02%
+Total (annualized) return for equal-share portfolio is 92.98% \
+Total (annualized) return for equal weight portfolio is 115.29% \
+Total (annualized) return for EOM rebalanced portfolio is 113.02% 
 
 I've included `output.csv` with the daily return vectors for the three portfolios.  I've also included a `requirements.txt` if you want to run the whole thing yourself.  I'm using Python 3.12.6.
 
@@ -36,5 +36,5 @@ I made two classes, `Portfolio` and `Position`.  A `Position` represents a ticke
 
 # Calculations
 
-The file `script.py` builds the portfolios, gets the returns, and prints out things like the total return and correlations.
+The file `script.py` builds the portfolios, gets the returns, and prints out things like the total return and correlations.  I really should have added tests!  But alas, time.
 
